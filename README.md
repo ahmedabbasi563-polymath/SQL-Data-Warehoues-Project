@@ -1,9 +1,9 @@
-# Data Warehouse and Analytical Project
+# ⛃ Data Warehouse and Analytical Project
 Welcome to the Data Warehouse and Analytics Project repository! 🚀 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
 
-# Project Specifications
+# 🚀 Project Specifications
 
 ### Building the Data Warehouse (Data Engineering)
 
@@ -19,7 +19,7 @@ Develop a data warehouse using SQL Server to analyze sales dataset which can ena
 
 ---
 
-### BI: Analytics & Reporting (Data Anlytics):
+### 🔎 BI: Analytics & Reporting (Data Anlytics):
 
 #### Objective
 Develop SQL-based analytics to deliver detailed insights into:
@@ -29,6 +29,6 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights will allow the business stakeholders to make strategic decisions based on metrics from data.
 
-### About Me:
+### 😊 About Me:
 My name is Ahmed Abbasi, and I am an undergraduate student at Minnesota State University, Mankato, majoring in Management Information Systems. I am currently focused on three core areas of development: enhancing my technical skills, cultivating a business-oriented mindset, and contributing to collaborative, impactful projects that deliver real value.
 As a freshman in the field of data architecture, I am passionate about learning and growing in the area of data management. I aspire to build a strong foundation in managing, organizing, and leveraging data to support strategic decision-making and drive innovation in organizations.
