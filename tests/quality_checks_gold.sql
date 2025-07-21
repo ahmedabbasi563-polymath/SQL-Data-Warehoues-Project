@@ -14,3 +14,39 @@ Usage Notes
     - Investigate and resolve any discrepancies found during the checks.
 ===================================================================================
 */
+
+-- ==============================================================
+-- Checking 'gold.dim_customers'
+-- ==============================================================
+-- Checking for uniqueness of Cusotmer Key in gold.dim_customers
+-- Expectations: No results
+SELECT
+	customer_key,
+	COUNT(*) AS duplicate_key
+FROM gold.dim_customers
+GROUP BY customer_key
+HAVING COUNT(*) > 1;
+
+-- ==============================================================
+-- Checking 'gold.dim_products'
+-- ==============================================================
+-- Check for Uniqueness of Product Key in gold.dim_products
+-- Expectations: No results
+SELECT
+	product_key,
+	COUNT(*) AS duplicate_key
+FROM gold.dim_products
+GROUP BY product_key
+HAVING COUNT(*) > 1;
+
+-- ==============================================================
+-- Checking 'gold.fact_sales'
+-- ==============================================================
+-- Checking for data model connectivity between fact and dimensions
+SELECT *
+FROM gold.fact_sales f
+LEFT JOIN gold.dim_customers c
+ON c.customer_key = f.customer_key
+LEFT JOIN gold.dim_products p
+ON p.product_key = f.product_key
+WHERE p.product_key IS NULL OR c.customer_key IS NULL;
