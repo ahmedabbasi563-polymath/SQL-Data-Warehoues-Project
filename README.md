@@ -29,6 +29,11 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights will allow the business stakeholders to make strategic decisions based on metrics from data.
 
+## Dashbaord using Power BI:
+Using gold layer views, I developed a Power BI dashboard for data visualization
+
+<img width="1371" height="774" alt="Sales Analytics Executive Level Dashboard" src="https://github.com/user-attachments/assets/f915a8c1-850f-4d42-969b-65ef5a37305f" />
+
 ### 😊 About Me:
 My name is Ahmed Abbasi, and I am an undergraduate student at Minnesota State University, Mankato, majoring in Management Information Systems. I am currently focused on three core areas of development: enhancing my technical skills, cultivating a business-oriented mindset, and contributing to collaborative, impactful projects that deliver real value.
 As a freshman in the field of data architecture, I am passionate about learning and growing in the area of data management. I aspire to build a strong foundation in managing, organizing, and leveraging data to support strategic decision-making and drive innovation in organizations.
